@@ -12,6 +12,7 @@ class Employe:
         return chaine
     
 class Responsable(Employe):
+
     def __init__(self, identifiant, nom, rang):  
         super().__init__(identifiant,nom)
         self.type = "Responsable"
